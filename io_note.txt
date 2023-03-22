@@ -1,0 +1,32 @@
+
+I - InputStream (read)
+O - OutputStream(write)
+
+System.out.println();
+
+Scanner sc = new Scanner(System.in);
+
+
+Data:-
+------
+	String		Object(Seria....) + transient
+
+
+String	:-
+--------
+	1) Byte oriented way
+		(write - FileOutputStream)
+		(read - FileInputStream)
+
+
+	2) Character Oriented way
+
+		write- FileWriter
+		read - FileReader
+
+
+File
+
+
+	
+

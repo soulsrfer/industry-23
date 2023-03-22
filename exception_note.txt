@@ -1,0 +1,140 @@
+Exception:- Abnormal Scenario
+-----------
+
+	Statement----1
+	Statement----2
+	Statement----3
+	Statement----4
+	Statement----5
+
+	10 / 0----------ArithmeticException---class
+
+	Statement----6
+	Statement----7
+	Statement----8
+	Statement----9
+	Statement----10
+
+
+
+2) NullPointerException:-
+---------------------------
+
+String name = null;
+
+System.out.println(name.length());
+
+3) ArrayIndexOutofBoundException:-
+----------------------------------------
+
+int a[] = new int[5];
+
+a[5] = 10;// ArrayIndexOutofBoundException
+
+4) StringIndexOutofBoundException:-
+--------------------------------------
+
+ String name = "Royal";//5
+ //               01234
+System.out.println(name.charAt(5));
+
+5) NumberFormateException:-
+---------------------------
+
+  String value = "abc";
+
+int no = Integer.parseInt(value);
+//  12
+
+System.out.println();
+
+
+
+
+
+
+
+
+
+
+
+
+		Type of Exception
+		-----------------
+1) Checked Exception		2) Unchecked Exception
+/ CompileTime Exception		   / Runtime Exception
+ -----------------------	-----------------------	
+        |				 |
+  Compiler--CompileTime 	   Runtime---JVM---raise	
+         |			--- ArithmeticException
+     ---raise			--- NullPointerException
+	|			--- ArrayIndexOutofBoundException		
+---FileNotFoundException	--- StringIndexOutofBoundException
+---IOException			--- NumberFormateException
+---SQLException			--- ClassCastException
+
+Ahm to Gnr					   A
+						B     C
+Bike--Helmate				A obj = new B();
+					C obj = (C) obj;// ClassCastException
+
+FileNotFoundException
+
+connection---write---File
+
+
+			Hierarchy of Exception 
+			----------------------
+
+
+				Object
+				  |
+				Throwable
+				  |
+				Exception	
+    "checkedException"		  |			"UncheckedException"	
+	-----------------------------------------------------------------
+	|			  				|
+FileNotFoundException					   RuntimeException
+IOException								|	
+SQLException						ArithmeticException
+							NullPointerException
+							ArrayIndexOutofBoundException		
+							StringIndexOutofBoundException
+							NumberFormateException
+							ClassCastException
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

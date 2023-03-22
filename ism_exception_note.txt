@@ -1,0 +1,91 @@
+Exception:- "Abnormal Scenario"--Scenario--class Bind
+----------
+
+
+	10 / 0---Scenario---Bind with class---ArithmeticException
+
+String name = null;
+System.out.println(name.length());// NullPointerException
+
+
+Statement----1
+Statement----2
+Statement----3
+Statement----4
+
+try
+{
+	Statement----5---code crashed---JVM Abnormal ternimate
+	int ans = 10/0;
+
+}catch(Exception e)
+{
+	e.printStackTrace();
+}
+Statement----6
+Statement----7
+Statement----8
+Statement----9
+Statement----10
+
+			Type of Exception
+			------------------
+	1) CheckedException		2) Unchecked Exception
+	--------------------		--------------------
+		|				|
+      CompileTime--Compiler		  Runtime--JVM	
+					---> ArithmeticException 
+					---> ArrayIndexOutofBoundException
+d:\test1\test.txt			---> StringIndex...
+					---> NullPOinterException
+checked---->FileNotFoundException	---> NumberFormateException	
+	    SQLException		---> ClasscastException
+	    IOException			
+-----------------------------------------------------------------------------------
+
+		Hierarchy of Exception
+		----------------------
+				
+			Throwable
+			   |
+			Exception
+    checked		   |		  "Unchecked"
+	------------------------------------------
+	|					|	
+FilenotFoundException			  RuntimeException	
+IOException					|	
+SQLException			--- ArithmeticException			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
