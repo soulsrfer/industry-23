@@ -19,8 +19,14 @@ public class TestApp4
 		list.add(s3);
 		list.add(s4);
 		list.add(s5);
-
-		Collections.sort(list);
+		Collections.sort(list, new StdWiseStudentComparator());
+		for (int i = 0; i < list.size(); i++) 
+		{
+			Student s = list.get(i);
+			System.out.println(s.getRno() + "  " + s.getName() +  " "+s.getStd());
+		} 
+		System.out.println("Namewise Sorting : ");
+		Collections.sort(list, new NameWiseStudentComparator());
 
 		for (int i = 0; i < list.size(); i++) 
 		{
