@@ -1,0 +1,49 @@
+Array Limitations:-
+--------------------
+
+	int a[] = new int[500];
+
+1) Typesafe
+2) size
+
+
+Collection Framework:- " java.util.*"
+----------------------
+			Iterable(I)-------------------------------------------------
+			   |							|
+			Collection(I)						|
+			   |							|
+			   |Data--Value						|
+			   |							|
+	-------------------------------------------------			|
+	|		   |			|				|
+      List(I)		  Set(I)	      Queue(I)			       Map(K,V)
+	|		   |			|				|
+ AbstractList(AC)	AbstractSet(AC)	   AbstractQueue(AC)		    AbtractMap(AC)	
+	|		   |			|			 	|
+--ArrayList(C)	---HashSet(C)		---PriorityQueue(C)		----HashMap(C)
+--Vector(C)	---LinkedHashSet(C)					----LinkedHashMap(C)
+--LinkedList(C)	---TreeSet(C)						----TreeMap(C)
+
+
+Employee id name slaary dsfb orgname
+
+1) insert---add
+2) update---set
+3) delete---remove
+4) display all records---
+5) search by name---
+6) 
+
+
+
+
+
+
+
+
+
+
+
+
+
